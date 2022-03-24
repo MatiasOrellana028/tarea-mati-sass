@@ -1,0 +1,13 @@
+@import "../base/listas";
+header{
+    background-color: nth($colores, 1 )
+}
+.logo{
+    height: 90px;
+}
+.container-fluid{
+    background-color: mediumaquamarine;
+}
+.container{
+    margin-top: 100px;
+}
