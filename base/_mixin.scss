@@ -1,0 +1,7 @@
+@mixin letras ($tamaño, $decoracion){
+    font-size: $tamaño;
+    text-decoration: $decoracion;
+}
+.card{
+    @include letras(15px, under-line )
+}

@@ -1,0 +1,10 @@
+@import "../base/maps";
+%disposicion{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+.centro{
+    @extend%disposicion;
+    background-color: map-get($color-cards, bg-cards);
+}
